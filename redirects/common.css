@@ -7,7 +7,7 @@ body {
 	background: #dac18b;
 	color: #393525;
 	 font-family: "Gabarito", sans-serif;
-	text-align: center;
+	
 }
 
 .main-heading {
@@ -15,6 +15,7 @@ body {
 	font-weight: 900;
 	margin-top: 20px;
 	font-family: "Outfit", sans-serif;
+    text-align: center;
 }
 
 .sub-heading {
@@ -24,6 +25,12 @@ body {
 	color: #393525;
 	margin-bottom: 50px;
 	font-family: "Outfit", sans-serif;
+    text-align: center;
 }
 
 
+.video{
+    padding-top: 50px;
+     background-color: #3935259b;
+     height: 120vh;
+}
