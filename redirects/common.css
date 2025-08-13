@@ -40,7 +40,7 @@ body {
 .content-container{
     padding-top: 50px;
      background-color: #312e23c8;
-      padding-left: 30px;
+      padding-left: 0px;
       /* height: 140vh; */
       color: aliceblue;
 
@@ -49,6 +49,7 @@ body {
 p {
     white-space: pre-line;
 line-height: 26px;
+padding-left: 10px;
 }
 
 .line {
