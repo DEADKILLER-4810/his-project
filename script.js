@@ -1,3 +1,8 @@
-document.addEventListener('DOMContentLoaded', function() {
-    console.log('Page loaded!');
-});
+const cards = document.querySelectorAll('.card');
+
+
+cards.forEach(card => {
+    card.addEventListener('click', () => {
+     card.classList.toggle('expanded');
+    });
+})

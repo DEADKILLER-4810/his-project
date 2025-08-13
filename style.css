@@ -6,7 +6,7 @@
 body {
 	background: #dac18b;
 	color: #393525;
-	font-family: "Outfit", sans-serif;
+	
 	text-align: center;
 }
 
@@ -15,7 +15,7 @@ body {
 	font-size: 2.5rem;
 	font-weight: 900;
 	margin-top: 20px;
-	
+	font-family: "Outfit", sans-serif;
 }
 
 .sub-heading {
@@ -24,6 +24,7 @@ body {
 	margin-top: 10px;
 	color: #393525;
 	margin-bottom: 50px;
+	font-family: "Outfit", sans-serif;
 }
 
 
@@ -50,9 +51,10 @@ body {
 	transition: 0.2s all ease-in-out;
 }
 
-.card:hover {
-	transform: translateY(-15px);
-}
+.card.expanded {
+    transform: translateY(-15px);
+    height: 600px;
+} 
 
 .tp{
 	height: 10vh;
