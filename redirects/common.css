@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #dac18b;
+	color: #393525;
+	 font-family: "Gabarito", sans-serif;
+	text-align: center;
+}
+
+.main-heading {
+	font-size: 2.5rem;
+	font-weight: 900;
+	margin-top: 20px;
+	font-family: "Outfit", sans-serif;
+}
+
+.sub-heading {
+	font-size: 1.5rem;
+	font-weight: 700;
+	margin-top: 10px;
+	color: #393525;
+	margin-bottom: 50px;
+	font-family: "Outfit", sans-serif;
+}
+
+
